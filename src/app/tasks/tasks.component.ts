@@ -8,9 +8,6 @@ import { TaskService } from './task.service';
   selector: 'app-tasks',
   standalone: true,
   templateUrl: './tasks.component.html',
-  imports: [NewTaskComponent, TasksListComponent],
-  providers: [
-    TaskService
-  ]
+  imports: [NewTaskComponent, TasksListComponent]
 })
 export class TasksComponent {}

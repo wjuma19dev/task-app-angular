@@ -2,9 +2,6 @@ import { inject, Injectable, signal } from '@angular/core';
 import { Task, TaskStatus } from './task.model';
 import { LogService } from '../services/log.service';
 
-// @Injectable({
-//   providedIn: 'root'
-// })
 export class TaskService {
 
   private logService = inject(LogService);
